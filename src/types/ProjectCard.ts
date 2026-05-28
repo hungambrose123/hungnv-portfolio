@@ -6,6 +6,11 @@ export type ProjectCard = {
         name: string,
         imageUrl: string,
     }[],
+    accessURL: {
+        name: string,
+        url: string,
+        imageURL: string,
+    }[]
 
 }
 

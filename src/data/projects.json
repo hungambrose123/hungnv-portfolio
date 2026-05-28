@@ -1,11 +1,16 @@
 [
     {
-        "projectImageURL": "https://tse3.mm.bing.net/th/id/OIP.jVQuO5aDRs21VzuCWHsawwHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "projectImageURL": "./projects/PortfolioProject.png",
         "projectName": "Portfolio website",
         "projectDescription": "Specializing in building clean, responsive, and user-centric web applications. Focused on translating design concepts into seamless digital experiences with smooth performance and pixel-perfect execution. Explore my frontend toolkit and latest projects below.",
         "projectTechnologies": [{
             "name": "React",
             "imageUrl": "./logo/React.png"
+        }],
+        "accessURL": [{
+            "name": "Github",
+            "url": "https://github.com/hungambrose123/hungnv-portfolio",
+            "imageURL": "./logo/GitHub.png"
         }]
     },
     {
