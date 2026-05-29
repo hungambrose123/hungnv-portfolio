@@ -1,6 +1,6 @@
 import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const ScrollToTopButton = () => {
     const [isVisible, setIsVisible] = useState(false);
