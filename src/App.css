@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'DK Jambo';
+    src: url('./fonts/DK\ Jambo.otf');
+}
+@font-face {
+    font-family: 'BetterChill';
+    src: url('./fonts/BetterChill.otf');
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('./fonts/PlayfairDisplay.ttf');
+}
+@font-face {
+    font-family: 'PlayfairDisplayItalic';
+    src: url('./fonts/PlayfairDisplay-Italic.ttf');
+}
+
+.sectionTitle{
+    font-family: 'DK Jambo';
+}
+
+.stylizedName{
+    font-family: 'PlayfairDisplayItalic';
+}
+.stylizedTitle{
+    font-family: 'PlayfairDisplay';
+}

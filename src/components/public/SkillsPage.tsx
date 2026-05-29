@@ -8,10 +8,10 @@ const SkillsPage = () => {
         <section className='text-center lg:text-start my-3'>
           <h3>Programing languages</h3>
           <ul className='flex flex-row flex-wrap gap-2 px-2 lg:px-0'>
-            <li><Badge variant={"outline"} className='py-3'><img src='./logo/Java.png' width={20} height={20} />Java</Badge></li>
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/JavaScript.png' width={20} height={20} />Javascript</Badge></li>
-            <li><Badge variant={"outline"} className='py-3'><img src='./logo/CSharp.png' width={20} height={20} />C#</Badge></li>
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/TypeScript.png' width={20} height={20} />Typescript</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./logo/CSharp.png' width={20} height={20} />C#</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./logo/Java.png' width={20} height={20} />Java</Badge></li>
           </ul>
         </section>
         {/* programming languages */}
@@ -36,6 +36,9 @@ const SkillsPage = () => {
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/Git.png' width={20} height={20} />Git</Badge></li>
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/Figma.png' width={20} height={20} />Figma</Badge></li>
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/Jira.png' width={20} height={20} />Jira</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./logo/Miro.png' width={20} height={20} />Miro</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./logo/DrawIO.png' width={20} height={20} />Draw.io</Badge></li> 
+            <li><Badge variant={"outline"} className='py-3'><img src='./logo/Visual_Paradigm.png' width={20} height={20} />Visual Paradigm</Badge></li>      
           </ul>
         </section>
         {/* tools */}

@@ -14,8 +14,8 @@ const HomePage = () => {
       {/* about me */}
       <section className='grid grid-col-6 grid-flow-col gap-3 mb-3 h-[80vh]'>
         <div className='col-span-3 flex flex-col justify-center'>
-          <h1 className='text-xl lg:text-4xl text-center'>Nguyễn Viết Hưng</h1>
-          <h2 className='text-md lg:text-xl text-center'>Software Developer</h2>
+          <h1 className='text-xl lg:text-4xl text-center stylizedName'>Nguyễn Viết Hưng</h1>
+          <h2 className='text-md lg:text-xl text-center stylizedTitle'>Software Developer</h2>
           <img src='./male-programmer-svgrepo-com.svg' alt='programmer icon introduction' className='lg:w-[40vw] lg:h-[60vh]'/>
         </div>
         <div className='col-span-3 text-center flex flex-col justify-center gap-5'>
@@ -51,7 +51,7 @@ const HomePage = () => {
 
       {/* overview project section */}
       <section className='my-2 '>
-        <h1 className='text-2xl font-bold mt-6 text-center'>PROJECT OVERVIEW</h1>
+        <h1 className='text-2xl font-bold mt-6 text-center sectionTitle'>PROJECT OVERVIEW</h1>
         {/* latest project */}
         <h1 className='text-2xl mt-6 text-center'>Latest project</h1>
         {projects.length > 0 ? 
