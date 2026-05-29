@@ -19,7 +19,7 @@ const PageHeader = () => {
     <header className='col-span-5 row-span-2 p-2 bg-linear-to-t from-[#8EC5FC] to-white h-[20v]'>
       <ul className="flex flex-row justify-between">
         <li className="grow">
-          <Link to={'/'}><img className="object-cover cursor-pointer hover:opacity-30" src="./logo/HungNV_Logo_Lightmode.png" width={150} height={150}/></Link>
+          <Link to={'/'}><img className="object-cover cursor-pointer hover:opacity-30" src="./hungnv-portfolio/logo/HungNV_Logo_Lightmode.png" width={150} height={150}/></Link>
         </li>
         {isDesktop ?
           <div className="flex flex-row gap-5 my-3 me-5">

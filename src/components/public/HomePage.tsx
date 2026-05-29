@@ -8,6 +8,7 @@ import { Link } from 'react-router';
 import ScrollToTopButton from '../ui/ScrollToTopButton';
 
 const HomePage = () => {
+  console.log(window.URL);
   return (
     <main className='col-span-5 p-2'>
 
@@ -16,7 +17,7 @@ const HomePage = () => {
         <div className='col-span-3 flex flex-col justify-center'>
           <h1 className='text-xl lg:text-4xl text-center stylizedName'>Nguyễn Viết Hưng</h1>
           <h2 className='text-md lg:text-xl text-center stylizedTitle'>Software Developer</h2>
-          <img src='./male-programmer-svgrepo-com.svg' alt='programmer icon introduction' className='lg:w-[40vw] lg:h-[60vh]'/>
+          <img src='./hungnv-portfolio/male-programmer-svgrepo-com.svg' alt='programmer icon introduction' className='lg:w-[40vw] lg:h-[60vh]'/>
         </div>
         <div className='col-span-3 text-center flex flex-col justify-center gap-5'>
           <p className='text-md lg:text-xl'>Glad you made it! Consider this my digital showroom—a mix of passion projects, problem-solving, and clean interfaces. Keep scrolling to see what's under the hood.</p>
@@ -33,17 +34,17 @@ const HomePage = () => {
         <div>
           <p className="text-md lg:text-lg">Technologies I mainly used for building personal projects</p>
           <ul className="flex flex-row flex-wrap gap-2">
-            <li><Badge variant={"outline"} className='py-3'><img src='./logo/MongoDB.png' width={20} height={20} />Mongodb</Badge></li>
-            <li><Badge variant={"outline"} className='py-3'><img src='./logo/Express.png' width={20} height={20} />Expressjs</Badge></li>
-            <li><Badge variant={"outline"} className='py-3'><img src='./logo/React.png' width={20} height={20} />React</Badge></li>
-            <li><Badge variant={"outline"} className='py-3'><img src='./logo/Node.js.png' width={20} height={20} />Nodejs</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./hungnv-portfolio/logo/MongoDB.png' width={20} height={20} />Mongodb</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./hungnv-portfolio/logo/Express.png' width={20} height={20} />Expressjs</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./hungnv-portfolio/logo/React.png' width={20} height={20} />React</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./hungnv-portfolio/logo/Node.js.png' width={20} height={20} />Nodejs</Badge></li>
           </ul>
         </div>
         <div>
           <p className="text-md lg:text-lg">Other technologies</p>
           <ul className="flex flex-row flex-wrap gap-2">
-            <li><Badge variant={"outline"} className='py-3'><img src='./logo/Spring.png' width={20} height={20} />Spring Boot</Badge></li>
-            <li><Badge variant={"outline"} className='py-3'><img src='./logo/NET core.png' width={20} height={20} />ASP.Net Core</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./hungnv-portfolio/logo/Spring.png' width={20} height={20} />Spring Boot</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./hungnv-portfolio/logo/NET core.png' width={20} height={20} />ASP.Net Core</Badge></li>
           </ul>
         </div>
       </section>
