@@ -1,44 +1,44 @@
 [
     {
-        "projectImageURL": "./hungnv-portfolio/projects/PortfolioProject.png",
+        "projectImageURL": "./projects/PortfolioProject.png",
         "projectName": "Portfolio website",
         "projectDescription": "Specializing in building clean, responsive, and user-centric web applications. Focused on translating design concepts into seamless digital experiences with smooth performance and pixel-perfect execution. Explore my frontend toolkit and latest projects below.",
         "projectTechnologies": [{
             "name": "React",
-            "imageUrl": "./hungnv-portfolio/logo/React.png"
+            "imageUrl": "./logo/React.png"
         }],
         "accessURL": [{
             "name": "Github",
             "url": "https://github.com/hungambrose123/hungnv-portfolio",
-            "imageURL": "./hungnv-portfolio/logo/GitHub.png"
+            "imageURL": "./logo/GitHub.png"
         }]
     },
     {
-        "projectImageURL": "./hungnv-portfolio/projects/PawShelterLandingPage.png",
+        "projectImageURL": "./projects/PawShelterLandingPage.png",
         "projectName": "PawShelter",
         "projectDescription": "A website designed to help lost pets or stray pets find their owners or their new adopters. Design with modern design in mind and focus on ease of use for customers.",
         "projectTechnologies": [
             {
                 "name": "React",
-                "imageUrl": "./hungnv-portfolio/logo/React.png"
+                "imageUrl": "./logo/React.png"
             },
             {
                 "name": "Expressjs",
-                "imageUrl": "./hungnv-portfolio/logo/Express.png"
+                "imageUrl": "./logo/Express.png"
             },
             {
                 "name": "Mongodb",
-                "imageUrl": "./hungnv-portfolio/logo/MongoDB.png"
+                "imageUrl": "./logo/MongoDB.png"
             },
             {
                 "name": "Nodejs",
-                "imageUrl": "./hungnv-portfolio/logo/Node.js.png"
+                "imageUrl": "./logo/Node.js.png"
             }
         ],
         "accessURL": [{
             "name": "Github",
             "url": "https://github.com/SEP490-G79",
-            "imageURL": "./hungnv-portfolio/logo/GitHub.png"
+            "imageURL": "./logo/GitHub.png"
         }]
     }
 ]
