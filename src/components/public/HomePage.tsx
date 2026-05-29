@@ -29,10 +29,10 @@ const HomePage = () => {
       {/* about me */}
 
       {/* skill set overview */}
-      <section className='flex justify-around flex-col lg:flex-row px-5 py-5'>
+      <section className='flex flex-col px-5 py-5 lg:px-20'>
         <div>
-          Technologies I mainly used for building personal projects
-          <ul>
+          <p className="text-md lg:text-lg">Technologies I mainly used for building personal projects</p>
+          <ul className="flex flex-row flex-wrap gap-2">
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/MongoDB.png' width={20} height={20} />Mongodb</Badge></li>
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/Express.png' width={20} height={20} />Expressjs</Badge></li>
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/React.png' width={20} height={20} />React</Badge></li>
@@ -40,8 +40,8 @@ const HomePage = () => {
           </ul>
         </div>
         <div>
-          Other technogies
-          <ul>
+          <p className="text-md lg:text-lg">Other technologies</p>
+          <ul className="flex flex-row flex-wrap gap-2">
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/Spring.png' width={20} height={20} />Spring Boot</Badge></li>
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/NET core.png' width={20} height={20} />ASP.Net Core</Badge></li>
           </ul>

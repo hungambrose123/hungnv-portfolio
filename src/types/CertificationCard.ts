@@ -1,4 +1,4 @@
-export type CertificationCard = {
+export type CertificationCardType = {
     cerName: string,
     cerDescription: string,
     cerImageURL: string,

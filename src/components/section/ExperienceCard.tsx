@@ -1,7 +1,7 @@
-import type { Experience } from '@/types/ExperienceCard'
+import type { ExperienceType } from '@/types/ExperienceCard'
 import React from 'react'
 
-const ExperienceCard = (props : Experience) => {
+const ExperienceCard = (props : ExperienceType) => {
   return (
     <article className='flex flex-col lg:flex-row mb-7'>
         <img src={props.companyImageURL} alt='company image url'  className='mx-auto object-cover rounded w-[60vw] lg:w-[10vw] lg:h-[20vh]'/>

@@ -14,7 +14,7 @@
         }]
     },
     {
-        "projectImageURL": "https://tse3.mm.bing.net/th/id/OIP.jVQuO5aDRs21VzuCWHsawwHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "projectImageURL": "./projects/PawShelterLandingPage.png",
         "projectName": "PawShelter",
         "projectDescription": "A website designed to help lost pets or stray pets find their owners or their new adopters. Design with modern design in mind and focus on ease of use for customers.",
         "projectTechnologies": [
@@ -34,6 +34,11 @@
                 "name": "Nodejs",
                 "imageUrl": "./logo/Node.js.png"
             }
-        ]
+        ],
+        "accessURL": [{
+            "name": "Github",
+            "url": "https://github.com/SEP490-G79",
+            "imageURL": "./logo/GitHub.png"
+        }]
     }
 ]

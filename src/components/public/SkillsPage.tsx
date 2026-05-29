@@ -3,9 +3,10 @@ import { Badge } from '../ui/badge'
 
 const SkillsPage = () => {
   return (
-    <article className='col-span-5 row-span-6 grid grid-cols-1 grid-rows-5 p-3 lg:p-10'>
+    <main className='col-span-5 row-span-6 grid grid-cols-1 grid-rows-6 p-3 lg:px-10 lg:py-6'>
+      <h1 className="text-md lg:text-2xl text-center sectionTitle">My skills</h1>
         {/* programming languages */}
-        <section className='text-center lg:text-start my-3'>
+        <section className='text-center lg:text-start lg:my-3'>
           <h3>Programing languages</h3>
           <ul className='flex flex-row flex-wrap gap-2 px-2 lg:px-0'>
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/JavaScript.png' width={20} height={20} />Javascript</Badge></li>
@@ -16,7 +17,7 @@ const SkillsPage = () => {
         </section>
         {/* programming languages */}
         {/* Tech stacks */}
-        <section className='text-center lg:text-start my-3'>
+        <section className='text-center lg:text-start lg:my-3'>
           <h3>Tech stacks</h3>
           <ul className='flex flex-row flex-wrap gap-2 px-2 lg:px-0'>
             <li><Badge variant={"outline"} className='py-3'><img src='./logo/MongoDB.png' width={20} height={20} />Mongodb</Badge></li>
@@ -28,6 +29,16 @@ const SkillsPage = () => {
           </ul>
         </section>
         {/* Tech stacks */}
+        {/* UI frameworks */}
+        <section className='text-center lg:text-start lg:my-3'>
+          <h3>CSS Framworks and Libraries</h3>
+          <ul className='flex flex-row flex-wrap gap-2 px-2 lg:px-0'>
+            <li><Badge variant={"outline"} className='py-3'><img src='./logo/Tailwind CSS.png' width={20} height={20} />Tailwind</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./logo/Bootstrap.png' width={20} height={20} />Bootstrap</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./logo/Ant Design.png' width={20} height={20} />Ant Design</Badge></li>
+          </ul>
+        </section>
+        {/* UI frameworks */}
         {/* tools */}
         <section className='text-center lg:text-start my-3'>
           <h3>Tools</h3>
@@ -42,7 +53,16 @@ const SkillsPage = () => {
           </ul>
         </section>
         {/* tools */}
-    </article>
+        {/* human languages */}
+        <section className='text-center lg:text-start my-3'>
+          <h3>Languages</h3>
+          <ul className='flex flex-row flex-wrap gap-2 px-2 lg:px-0'>
+            <li><Badge variant={"outline"} className='py-3'><img src='./logo/VietnamFlag.png' width={20} height={20} />Vietnamese</Badge></li>
+            <li><Badge variant={"outline"} className='py-3'><img src='./logo/UKFlag.png' width={20} height={20} />English</Badge></li>     
+          </ul>
+        </section>
+        {/* human languages */}
+    </main>
   )
 }
 

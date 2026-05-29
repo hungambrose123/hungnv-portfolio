@@ -1,20 +1,17 @@
 import {
   Card,
-  CardAction,
-  CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { Badge } from "../ui/badge"
 import { Button } from "../ui/button"
-import type { CertificationCard } from "@/types/CertificationCard"
+import type { CertificationCardType } from "@/types/CertificationCard"
 
-const CertificationCard = ({cerName, cerDescription, cerImageURL, cerURL, dateAcquired, cerGiver, cerPlatform} : CertificationCard) => {
+const CertificationCard = ({cerName, cerDescription, cerImageURL, cerURL, dateAcquired, cerGiver, cerPlatform} : CertificationCardType) => {
   return (
     <Card className="relative mx-auto w-full max-w-sm pt-0 bg-white/60 backdrop-blur-sm">
-      <div className="absolute inset-0 z-30 aspect-video bg-black/35" />
+      <div className="absolute inset-0 z-30 aspect-video" />
       <img
         src={cerImageURL}
         alt="Event cover"
@@ -24,8 +21,8 @@ const CertificationCard = ({cerName, cerDescription, cerImageURL, cerURL, dateAc
         {/* <CardAction>
           <Badge variant="secondary">Featured</Badge>
         </CardAction> */}
-        <CardTitle>{cerName}</CardTitle>
-        <CardDescription>
+        <CardTitle className="h-[7vh]">{cerName}</CardTitle>
+        <CardDescription className="line-clamp-3">
           {cerDescription}
         </CardDescription>
         <p>Acquired: {dateAcquired}</p>
@@ -39,4 +36,4 @@ const CertificationCard = ({cerName, cerDescription, cerImageURL, cerURL, dateAc
   )
 }
 
-export default CertificationCard
+export default CertificationCard;

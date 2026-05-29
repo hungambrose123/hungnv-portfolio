@@ -1,4 +1,4 @@
-export type ProjectCard = {
+export type ProjectCardType = {
     projectImageURL: string,
     projectName:string,
     projectDescription: string,
