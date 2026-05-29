@@ -1,5 +1,4 @@
 import type { ExperienceType } from '@/types/ExperienceCard'
-import React from 'react'
 
 const ExperienceCard = (props : ExperienceType) => {
   return (
